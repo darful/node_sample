@@ -1,8 +1,8 @@
-#NodeJS Sample
+# NodeJS Sample
 
 All code written using Node 8.11.3.
 
-##Express
+## Express
 Express App that fetches news articles from newsapi.org.
 
 To run:
@@ -11,13 +11,13 @@ To run:
 * npm start
 * Open Browser to http://localhost:3000
 
-##Merge Sort
+## Merge Sort
 Merge Sort implementation.
 
 To run:
 * node merge_sort.js
 
-##Quick Sort
+## Quick Sort
 Quick Sort implementation.
 
 To run:

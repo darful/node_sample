@@ -55,6 +55,7 @@ function updateStateMap(row, column, playerMarker, stateMap) {
 
 function foundWinner(row, column, playerMarker, size, stateMap) {
   if(stateMap['row' + row] === (size * playerMarker) ||
+    stateMap['column' + column] === (size * playerMarker) ||
     stateMap['diagonal'] === (size * playerMarker)) {
 
     return true;
